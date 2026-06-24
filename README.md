@@ -25,8 +25,6 @@ cross-generator pairs while eliminating any external landmark tracking.
 `f_t ∈ R^{128×16×16}` → **inter-frame differencing** `d_t = f_{t+1} − f_t` → temporal identity head →
 ℓ₂-normalized 256-d embedding, trained with supervised contrastive loss (τ = 0.07).
 
-![Cross-generator generalization](docs/figures/fig2_diff_generalization.png)
-
 ## Repository structure
 
 ```
